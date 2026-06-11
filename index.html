@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Business Digest</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="intro">
+        <p class="eyebrow">Business Tool Lab</p>
+        <h1>Daily Business Digest</h1>
+        <p>
+          Paste a simple CSV export from sales, payments, or inventory work and turn it into a short
+          manager-facing daily report.
+        </p>
+      </section>
+
+      <section class="workspace" aria-label="Daily report generator">
+        <div class="input-panel">
+          <div class="panel-header">
+            <h2>Input</h2>
+            <button id="load-sample" type="button">Load sample</button>
+          </div>
+          <label for="business-data">CSV data</label>
+          <textarea id="business-data" spellcheck="false"></textarea>
+          <button id="generate-report" class="primary-action" type="button">Generate report</button>
+        </div>
+
+        <div class="output-panel">
+          <div id="report-output"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/app.mjs"></script>
+  </body>
+</html>
