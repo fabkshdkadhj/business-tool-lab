@@ -1,66 +1,44 @@
-# Business Tool Lab
+# Daily Business Digest
 
-Small workflow tools and service demos for practical business tasks.
+Turn a simple CSV export into a short manager-facing daily report.
 
-This repository is a public workbench. Each demo should answer one simple question:
+This is the first public demo in `business-tool-lab`. It is intentionally small: the goal is to show a clear workflow result, not to claim a giant business platform.
 
-> Can this save a small team time, reduce messy manual work, or make a decision easier?
+## What It Does
 
-## Planned demo tracks
+- Parses pasted CSV rows
+- Calculates income, expenses, net amount, unpaid income, and refunds
+- Finds the top income category
+- Generates action items a manager can review quickly
 
-### 1. Daily Business Digest
+## Expected CSV Columns
 
-Turn daily sales, payment, inventory, or task records into a short manager-friendly summary.
+```csv
+date,type,category,customer,amount,status,note
+2026-06-12,income,retail,Walk-in,268,paid,morning orders
+```
 
-Possible outputs:
+Supported `type` values:
 
-- Today's key numbers
-- Delayed follow-ups
-- Abnormal records
-- Tomorrow's action list
+- `income`
+- `expense`
+- `refund`
 
-### 2. Data Cleanup Casebook
+Any negative income is treated as a refund review item.
 
-Before-and-after examples for messy spreadsheets.
+## Local Verification
 
-Possible tasks:
+```powershell
+node --test tests/*.test.mjs
+```
 
-- Deduplicate records
-- Standardize names and categories
-- Find missing fields
-- Export a clean CSV/XLSX-ready table
+## Why This Exists
 
-### 3. Research Briefs
+Many small teams do not need a large system first. They need a clean daily summary:
 
-Source-backed short reports for business questions.
+- What came in?
+- What went out?
+- What is unpaid?
+- What needs attention tomorrow?
 
-Rules:
-
-- Every important claim needs a source link
-- No fake certainty
-- Separate facts, assumptions, and recommendations
-
-### 4. Content Operations Pack
-
-Structured content planning for small accounts and operators.
-
-Possible outputs:
-
-- Topic list
-- Hook/title variations
-- Short video scripts
-- Posting calendar
-
-## Service shape
-
-This lab is not trying to sell generic "AI magic." The useful unit is a concrete result:
-
-- a cleaned table
-- a short report
-- an automation prototype
-- a reusable operating checklist
-- a simple tool page
-
-## Status
-
-Early setup. First public demo will be added next.
+This demo is a small proof of that workflow.
