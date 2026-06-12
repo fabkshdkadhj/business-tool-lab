@@ -220,6 +220,7 @@ button:hover {
 }
 
 .service-section,
+.case-study-section,
 .request-section {
   margin-top: 20px;
   padding: 24px;
@@ -245,18 +246,21 @@ button:hover {
   margin-top: 18px;
 }
 
-.tier-card {
+.tier-card,
+.case-card {
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--card);
 }
 
-.tier-card h3 {
+.tier-card h3,
+.case-card h3 {
   margin-bottom: 8px;
 }
 
-.tier-card p {
+.tier-card p,
+.case-card p {
   margin-bottom: 0;
   color: var(--muted);
   line-height: 1.5;
@@ -268,6 +272,28 @@ button:hover {
   color: var(--accent);
   font-size: 13px;
   font-weight: 700;
+}
+
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.case-card span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.case-study-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
 }
 
 .request-section {
@@ -291,6 +317,10 @@ button:hover {
   }
 
   .tier-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-study-grid {
     grid-template-columns: 1fr;
   }
 
