@@ -18,6 +18,19 @@ body:
       placeholder: Small retail shop
     validations:
       required: true
+  - type: dropdown
+    id: workflow_type
+    attributes:
+      label: Workflow type
+      options:
+        - Daily digest
+        - Platform reconciliation
+        - Inventory health check
+        - Customer follow-up aging
+        - Other reporting workflow
+        - Not sure yet
+    validations:
+      required: true
   - type: textarea
     id: data_source
     attributes:
