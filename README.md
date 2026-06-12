@@ -43,6 +43,17 @@ Many small teams do not need a large system first. They need a clean daily summa
 
 This demo is a small proof of that workflow.
 
+## Case Study
+
+See the first public before-and-after sample:
+
+- [Small Retail Case Study](examples/case-study-small-retail.md)
+- [Messy sample ledger](examples/small-retail-messy-ledger.csv)
+- [Daily digest output](examples/daily-digest-output.md)
+
+The case maps a small shop ledger into a manager summary with income, expenses, unpaid invoices,
+refund review, and the top paid income category.
+
 ## Service Offer
 
 This repository can also be used as a lightweight service sample for small business reporting work.
