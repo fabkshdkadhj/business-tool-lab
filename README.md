@@ -42,3 +42,19 @@ Many small teams do not need a large system first. They need a clean daily summa
 - What needs attention tomorrow?
 
 This demo is a small proof of that workflow.
+
+## Service Offer
+
+This repository can also be used as a lightweight service sample for small business reporting work.
+
+Starter options:
+
+- **Starter Cleanup**: clean one messy table and return a readable summary, issue list, and corrected file structure.
+- **Workflow Prototype**: build a small browser-based tool for one recurring report, checklist, or data cleanup step.
+- **Monthly Digest Setup**: set up a repeatable monthly report format with sample data, rules, and handoff notes.
+
+To request a sample adaptation, open a public GitHub issue using the business report request form:
+
+https://github.com/fabkshdkadhj/business-tool-lab/issues/new?template=business-report-request.yml
+
+Do not paste private customer data, account numbers, medical information, passwords, or internal company secrets into a public issue.
