@@ -1,0 +1,6 @@
+customer,invoice_id,amount,due_date,last_contact_date,status,owner,note
+Blue Door Cafe,INV-1001,380,2026-06-05,2026-06-08,unpaid,Mia,asked for resend
+Lake Tour Co,INV-1002,620,2026-05-25,2026-06-01,unpaid,Chen,month-end booking
+Snow Gear Shop,INV-1003,240,2026-06-14,2026-06-10,unpaid,Mia,not due yet
+Travel Desk,INV-1004,150,2026-05-08,2026-05-15,unpaid,Lin,no reply
+Walk-in,INV-1005,90,2026-06-11,2026-06-11,paid,Mia,paid cash
