@@ -1,0 +1,55 @@
+name: Business report request
+description: Request a non-sensitive sample report, cleanup, or workflow prototype.
+title: "[Request] "
+labels:
+  - request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for non-sensitive sample requests only.
+
+        Do not paste private customer data, account numbers, medical information, passwords, or internal company secrets.
+  - type: input
+    id: business_type
+    attributes:
+      label: Business type
+      description: Example: small shop, e-commerce seller, service team, inventory clerk.
+      placeholder: Small retail shop
+    validations:
+      required: true
+  - type: textarea
+    id: data_source
+    attributes:
+      label: Data source
+      description: What kind of file or export do you have?
+      placeholder: CSV export from sales records with date, category, amount, status.
+    validations:
+      required: true
+  - type: textarea
+    id: desired_output
+    attributes:
+      label: Desired output
+      description: What should the final report or tool produce?
+      placeholder: Daily income, unpaid orders, refund review list, and next action items.
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Starting package
+      options:
+        - Starter Cleanup
+        - Workflow Prototype
+        - Monthly Digest Setup
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Safe sample data
+      description: Optional. Paste 3-5 fake or anonymized rows only.
+      placeholder: date,type,category,amount,status
+    validations:
+      required: false
