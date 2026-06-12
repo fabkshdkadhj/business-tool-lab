@@ -1,0 +1,7 @@
+order_id,platform,gross_sales,expected_settlement,received_settlement,refund_amount,platform_fee,status,note
+DYT-1001,douyin,268,245,245,0,23,settled,normal settlement
+DYT-1002,douyin,156,143,0,0,13,settled,no settlement in payment export
+MT-2088,meituan,430,395,382,0,35,settled,received amount is short
+KS-3301,kuaishou,198,180,180,0,18,settled,normal settlement
+DYT-1003,douyin,88,0,0,88,0,refunded,customer refund
+WX-5510,mini-program,320,315,315,0,5,settled,normal settlement
