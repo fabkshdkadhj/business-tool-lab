@@ -43,16 +43,19 @@ Many small teams do not need a large system first. They need a clean daily summa
 
 This demo is a small proof of that workflow.
 
-## Case Study
+## Case Studies
 
-See the first public before-and-after sample:
+See the public before-and-after samples:
 
-- [Small Retail Case Study](examples/case-study-small-retail.md)
-- [Messy sample ledger](examples/small-retail-messy-ledger.csv)
+- [Small Retail Case Study](examples/case-study-small-retail.md): a shop ledger becomes a daily manager summary.
+- [Multi-Platform Order Reconciliation](examples/case-study-marketplace-reconciliation.md): platform settlement rows become an exception list.
+
+Sample inputs and outputs:
+
+- [Small retail ledger](examples/small-retail-messy-ledger.csv)
 - [Daily digest output](examples/daily-digest-output.md)
-
-The case maps a small shop ledger into a manager summary with income, expenses, unpaid invoices,
-refund review, and the top paid income category.
+- [Multi-platform order reconciliation CSV](examples/multi-platform-order-reconciliation.csv)
+- [Order reconciliation output](examples/order-reconciliation-output.md)
 
 ## Service Offer
 
