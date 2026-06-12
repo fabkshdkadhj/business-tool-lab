@@ -282,10 +282,13 @@ button:hover {
 }
 
 .case-showcase {
-  padding: 18px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--card);
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.case-showcase:first-child {
+  border-top: 0;
+  padding-top: 0;
 }
 
 .case-showcase h3 {
@@ -293,6 +296,7 @@ button:hover {
 }
 
 .case-showcase p {
+  max-width: 820px;
   color: var(--muted);
   line-height: 1.5;
 }
