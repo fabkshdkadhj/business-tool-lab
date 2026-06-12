@@ -1,8 +1,9 @@
-# Daily Business Digest
+# Business Tool Lab
 
-Turn a simple CSV export into a short manager-facing daily report.
+Turn simple CSV exports into short manager-facing reports, exception lists, and workflow samples.
 
-This is the first public demo in `business-tool-lab`. It is intentionally small: the goal is to show a clear workflow result, not to claim a giant business platform.
+This repository is intentionally small: the goal is to show clear workflow results, not to claim a
+giant business platform.
 
 ## What It Does
 
@@ -49,6 +50,8 @@ See the public before-and-after samples:
 
 - [Small Retail Case Study](examples/case-study-small-retail.md): a shop ledger becomes a daily manager summary.
 - [Multi-Platform Order Reconciliation](examples/case-study-marketplace-reconciliation.md): platform settlement rows become an exception list.
+- [Inventory Health Check](examples/case-study-inventory-health.md): stock rows become a slow-stock, dead-stock, and reorder-risk report.
+- [Customer Follow-Up Aging](examples/case-study-customer-follow-up.md): unpaid invoices become an aging summary and follow-up queue.
 
 Sample inputs and outputs:
 
@@ -56,6 +59,11 @@ Sample inputs and outputs:
 - [Daily digest output](examples/daily-digest-output.md)
 - [Multi-platform order reconciliation CSV](examples/multi-platform-order-reconciliation.csv)
 - [Order reconciliation output](examples/order-reconciliation-output.md)
+- [Inventory health CSV](examples/inventory-health-check.csv)
+- [Inventory health output](examples/inventory-health-output.md)
+- [Customer follow-up CSV](examples/customer-follow-up-aging.csv)
+- [Customer follow-up output](examples/customer-follow-up-output.md)
+- [Full examples index](examples/index.md)
 
 ## Service Offer
 
@@ -66,6 +74,8 @@ Starter options:
 - **Starter Cleanup**: clean one messy table and return a readable summary, issue list, and corrected file structure.
 - **Workflow Prototype**: build a small browser-based tool for one recurring report, checklist, or data cleanup step.
 - **Monthly Digest Setup**: set up a repeatable monthly report format with sample data, rules, and handoff notes.
+
+See [SERVICE.md](SERVICE.md) for the service scope, privacy boundary, and request checklist.
 
 To request a sample adaptation, open a public GitHub issue using the business report request form:
 
