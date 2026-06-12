@@ -1,0 +1,7 @@
+sku,name,category,on_hand,units_sold_30d,unit_cost,reorder_point,days_since_sale,supplier,note
+ALT-HAT-01,Wool Hat,winter,36,2,18,10,48,North Supply,seasonal stock
+ALT-GLOVE-02,Thermal Gloves,winter,4,18,22,8,3,North Supply,fast mover
+ALT-MUG-03,Tourist Mug,gift,58,0,9.5,12,90,Gift House,no sales
+ALT-SCARF-04,Printed Scarf,winter,11,9,16,10,12,North Supply,steady seller
+ALT-SNACK-05,Trail Snack,food,3,27,4,15,1,Food Co,needs reorder
+ALT-POST-06,Postcard Pack,gift,80,5,1.2,20,60,Gift House,slow item
