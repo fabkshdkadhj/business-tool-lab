@@ -1,0 +1,9 @@
+date,type,category,customer,amount,status,note
+2026-06-12,income,counter-sales,Walk-in,430,paid,morning counter orders
+2026-06-12,income,counter-sales,Walk-in,400,paid,afternoon counter orders
+2026-06-12,income,delivery,Neighborhood orders,270,paid,same-day delivery sales
+2026-06-12,income,wholesale,Blue Door Cafe,380,unpaid,invoice due tomorrow
+2026-06-12,expense,supplies,Paper Vendor,180.5,paid,cups and receipt paper
+2026-06-12,expense,delivery,Local Courier,52,paid,driver fee
+2026-06-12,expense,packaging,Market Supply,85,paid,takeaway bags
+2026-06-12,income,counter-sales,Walk-in,-45,refunded,returned item
